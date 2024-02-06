@@ -1,0 +1,1 @@
+Usefull scripts for my dev servers, Ubuntu 22.04 tested
