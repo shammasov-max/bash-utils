@@ -27,4 +27,5 @@ apt upgrade
 apt install -y nodejs libpq-dev g++ make
 npm i -g npm@latest
 npm i -g yarn@latest typescript@latest ts-node@latest
-
+npm i -g pm2
+pm2 install pm2-logrotate
