@@ -1,0 +1,9 @@
+#!/bin/bash
+apt install fish
+ which fish
+echo /usr/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/bin/fish
+#if [ -z "$1" ]
+#  then
+#    echo $1 
+#fi
