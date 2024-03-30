@@ -1,8 +1,9 @@
 #!/bin/bash
 apt install fish
- which fish
+which fish
 echo /usr/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/bin/fish
+echo -e "if status is-interactive \n \t cd /home/prospali-dra \n" >> ~/.config/fish/config.fish
 #if [ -z "$1" ]
 #  then
 #    echo $1 
