@@ -6,6 +6,7 @@ apt update -y
 apt upgrade -y
 apt install -y curl wget ncdu nano git
 apt install -y build-essential checkinstall libssl-dev
+apt install -y libjpeg-dev libpng-dev libtiff-dev libgif-dev libwebp-dev 
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
