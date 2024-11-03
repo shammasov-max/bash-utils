@@ -3,7 +3,7 @@ apt install fish
 which fish
 echo /usr/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/bin/fish
-echo -e "if status is-interactive \n \t cd /home/prospali-dra \n" >> ~/.config/fish/config.fish
+echo -e "if status is-interactive \n \t cd /home/ \n" >> ~/.config/fish/config.fish
 #if [ -z "$1" ]
 #  then
 #    echo $1 
@@ -15,3 +15,8 @@ echo '# Defined in /usr/share/fish/functions/prompt_hostname.fish @ line 1
                           # return the short hostname only by default (#4804)
                           string replace -r ".ru" "" $hostname
                       end' >> ~/.config/fish/config.fish
+
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+fisher install jorgebucaran/nvm.fish
+nvm install 22
+nvm use 22
