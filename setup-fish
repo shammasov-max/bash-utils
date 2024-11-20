@@ -16,6 +16,7 @@ echo '# Defined in /usr/share/fish/functions/prompt_hostname.fish @ line 1
                           string replace -r ".ru" "" $hostname
                       end' >> ~/.config/fish/config.fish
 
+fish 
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 fisher install jorgebucaran/nvm.fish
 nvm install 22
