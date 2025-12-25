@@ -27,3 +27,4 @@ apt update
 apt upgrade
 npm i -g pm2
 pm2 install pm2-logrotate
+curl -fsSL https://claude.ai/install.sh | bash
